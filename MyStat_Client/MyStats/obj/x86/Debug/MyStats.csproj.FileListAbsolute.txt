@@ -1,0 +1,194 @@
+C:\Users\Администратор\AppData\Local\Temporary Projects\MyStats\bin\Debug\MyStats.exe
+C:\Users\Администратор\AppData\Local\Temporary Projects\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Администратор\AppData\Local\Temporary Projects\MyStats\obj\x86\Debug\MyStats.Form1.resources
+C:\Users\Администратор\AppData\Local\Temporary Projects\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\Администратор\AppData\Local\Temporary Projects\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\Администратор\AppData\Local\Temporary Projects\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\Администратор\AppData\Local\Temporary Projects\MyStats\obj\x86\Debug\MyStats.pdb
+c:\users\администратор\documents\visual studio 2010\Projects\MyStats\MyStats\obj\x86\Debug\MyStats.exe
+c:\users\администратор\documents\visual studio 2010\Projects\MyStats\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\Администратор\documents\visual studio 2010\Projects\MyStats\MyStats\bin\Debug\MyStats.exe
+C:\Users\Администратор\documents\visual studio 2010\Projects\MyStats\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Администратор\documents\visual studio 2010\Projects\MyStats\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\Администратор\documents\visual studio 2010\Projects\MyStats\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\Администратор\documents\visual studio 2010\Projects\MyStats\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\Администратор\documents\visual studio 2010\Projects\MyStats\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\documents\visual studio 2010\Projects\MyStats\MyStats\obj\x86\Debug\MyStats.Main.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\Администратор\Desktop\MyStats\MyStats\bin\Debug\MyStats.exe
+C:\Users\Администратор\Desktop\MyStats\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.Books.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.Main.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\bin\Debug\MyStats.exe
+C:\Users\user.STEP.000\Downloads\MyStat\MyStats\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Debug\MyStats.Calendar.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\bin\Debug\MyStats.exe
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.Admin.Schedule.resources
+C:\Users\Хатка\Desktop\MyStats\MyStats\MyStats\obj\x86\Debug\MyStats.Admin.Group.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\Администратор\Desktop\MyStats312\MyStats\bin\Debug\MyStats.exe
+C:\Users\Администратор\Desktop\MyStats312\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Group.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Schedule.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Group.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Request.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Schedule.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.SendNews.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\bin\Debug\MyStats.exe
+C:\Users\Хатка\Desktop\MyStats312\MyStats312\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.SendNews.resources
+C:\Users\Администратор\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Req.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\Хатка\Desktop\MyStats312\MyStats\bin\Debug\MyStats.exe
+C:\Users\Хатка\Desktop\MyStats312\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Group.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Req.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Schedule.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.SendNews.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\Хатка\Desktop\MyStats312\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\bin\Debug\MyStats.exe
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\bin\Debug\MyStats.pdb
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Group.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Req.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.Schedule.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Admin.SendNews.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\user.STEP.001\Downloads\MyStats312\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\bin\Debug\MyStats.exe
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\bin\Debug\MyStats.pdb
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Admin.Group.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Admin.Req.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Admin.Schedule.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Admin.SendNews.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\bin\Debug\MyStats.exe.config
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\bin\Debug\ClientCoreLibrary.dll
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\bin\Debug\ClientCoreLibrary.pdb
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\bin\Debug\MyStats.exe.config
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\bin\Debug\MyStats.exe
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\bin\Debug\MyStats.pdb
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\bin\Debug\ClientCoreLibrary.dll
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\bin\Debug\ClientCoreLibrary.pdb
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Admin.Group.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Admin.Req.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Admin.Schedule.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Admin.SendNews.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\Taras\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\bin\Debug\MyStats.exe.config
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.exe
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.pdb
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\bin\Debug\MyStats.exe
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\bin\Debug\MyStats.pdb
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\bin\Debug\ClientCoreLibrary.dll
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\bin\Debug\ClientCoreLibrary.pdb
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Admin.Group.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Admin.Req.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Admin.Schedule.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Admin.SendNews.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Help.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Homework.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Library.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Login.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.News.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Present.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Properties.Resources.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.csproj.GenerateResource.Cache
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Learner.Help.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Learner.Homework.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Learner.Library.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Learner.News.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Learner.Schedule.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Learner.Stats.resources
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\MyStats\obj\x86\Debug\MyStats.Calendar.resources

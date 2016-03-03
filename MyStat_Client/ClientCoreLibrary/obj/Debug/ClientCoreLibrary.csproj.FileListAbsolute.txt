@@ -1,0 +1,28 @@
+D:\WorkFolder\CommandProject\ClientCore\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.dll
+D:\WorkFolder\CommandProject\ClientCore\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.pdb
+D:\WorkFolder\CommandProject\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.csprojResolveAssemblyReference.cache
+D:\WorkFolder\CommandProject\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.dll
+D:\WorkFolder\CommandProject\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.pdb
+D:\WorkFolder\TeamProject\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.csprojResolveAssemblyReference.cache
+D:\WorkFolder\TeamProject\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.dll
+D:\WorkFolder\TeamProject\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.pdb
+D:\WorkFolder\TeamProject\ClientCore\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.dll
+D:\WorkFolder\TeamProject\ClientCore\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.pdb
+C:\Users\sasha\Desktop\Stat\ClientCore\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.csprojResolveAssemblyReference.cache
+C:\Users\sasha\Desktop\Stat\ClientCore\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.dll
+C:\Users\sasha\Desktop\Stat\ClientCore\ClientCore\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.pdb
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.dll
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.pdb
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.dll
+C:\Users\user.STEP.018\Desktop\MyStats (Main)\MyStats\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.pdb
+C:\Users\Taras\Desktop\MyStat_WithInterface\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.dll
+C:\Users\Taras\Desktop\MyStat_WithInterface\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.pdb
+C:\Users\Taras\Desktop\MyStat_WithInterface\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Taras\Desktop\MyStat_WithInterface\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.dll
+C:\Users\Taras\Desktop\MyStat_WithInterface\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.pdb
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.dll
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.pdb
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.dll
+C:\Users\user.STEP.002\Desktop\MyStat_WithInterface\ClientCoreLibrary\obj\Debug\ClientCoreLibrary.pdb

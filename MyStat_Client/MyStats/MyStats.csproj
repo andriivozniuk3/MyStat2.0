@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA023C63-2E67-422D-839F-0CF692114119}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyStats</RootNamespace>
+    <AssemblyName>MyStats</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClientCoreLibrary">
+      <HintPath>..\ClientCoreLibrary\bin\Debug\ClientCoreLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Group.Designer.cs">
+      <DependentUpon>Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Req.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Req.Designer.cs">
+      <DependentUpon>Req.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Schedule.Designer.cs">
+      <DependentUpon>Schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SendNews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\SendNews.Designer.cs">
+      <DependentUpon>SendNews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Learner\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Learner\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Learner\Homework.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Learner\Homework.Designer.cs">
+      <DependentUpon>Homework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Learner\Library.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Learner\Library.Designer.cs">
+      <DependentUpon>Library.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Learner\News.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Learner\News.Designer.cs">
+      <DependentUpon>News.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Learner\Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Learner\Schedule.Designer.cs">
+      <DependentUpon>Schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Learner\Stats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Learner\Stats.Designer.cs">
+      <DependentUpon>Stats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teacher\Calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\Calendar.Designer.cs">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\Homework.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\Homework.Designer.cs">
+      <DependentUpon>Homework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\Library.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\Library.Designer.cs">
+      <DependentUpon>Library.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\News.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\News.Designer.cs">
+      <DependentUpon>News.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\Present.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\Present.Designer.cs">
+      <DependentUpon>Present.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\Group.resx">
+      <DependentUpon>Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Req.resx">
+      <DependentUpon>Req.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Schedule.resx">
+      <DependentUpon>Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SendNews.resx">
+      <DependentUpon>SendNews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Learner\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Learner\Homework.resx">
+      <DependentUpon>Homework.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Learner\Library.resx">
+      <DependentUpon>Library.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Learner\News.resx">
+      <DependentUpon>News.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Learner\Schedule.resx">
+      <DependentUpon>Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Learner\Stats.resx">
+      <DependentUpon>Stats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\Calendar.resx">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\Homework.resx">
+      <DependentUpon>Homework.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\Library.resx">
+      <DependentUpon>Library.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\News.resx">
+      <DependentUpon>News.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\Present.resx">
+      <DependentUpon>Present.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyStat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-ru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\study-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-alt-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_BLUE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_blue2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1_ru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar-icon .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar-icon 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donwl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30x30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users-Group-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\requestIco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\00ico.ico" />
+    <Content Include="Resources\1233.png" />
+    <Content Include="Resources\1234.png" />
+    <Content Include="Resources\1235.png" />
+    <Content Include="Resources\333.png" />
+    <Content Include="Resources\3331.png" />
+    <Content Include="Resources\minicons2-61-512333.png" />
+    <Content Include="Resources\minicons2-61-5123331.png" />
+    <Content Include="Resources\upload123.png" />
+    <Content Include="Resources\upload1231.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

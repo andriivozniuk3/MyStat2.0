@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD91086D-0496-45A3-BB79-934D7ADAA75D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClientCoreLibrary</RootNamespace>
+    <AssemblyName>ClientCoreLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataClasses\AdminInfo.cs" />
+    <Compile Include="DataClasses\Advertisement.cs" />
+    <Compile Include="DataClasses\AuthorizationInfo.cs" />
+    <Compile Include="DataClasses\AuthorizationResult.cs" />
+    <Compile Include="DataClasses\CustomFile.cs" />
+    <Compile Include="DataClasses\Day.cs" />
+    <Compile Include="DataClasses\GroupInfo.cs" />
+    <Compile Include="DataClasses\HomeWorkInfo.cs" />
+    <Compile Include="DataClasses\Lesson.cs" />
+    <Compile Include="DataClasses\Request.cs" />
+    <Compile Include="DataClasses\Statistic.cs" />
+    <Compile Include="DataClasses\StudentInfo.cs" />
+    <Compile Include="DataClasses\StudyMaterialInfo.cs" />
+    <Compile Include="DataClasses\TeacherInfo.cs" />
+    <Compile Include="DataClasses\Timetable.cs" />
+    <Compile Include="DataClasses\UnitInfo.cs" />
+    <Compile Include="PublicClasses\AbstractUnit.cs" />
+    <Compile Include="Implementation\Admin.cs" />
+    <Compile Include="Implementation\Student.cs" />
+    <Compile Include="Implementation\Teacher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicClasses\AbstractAdmin.cs" />
+    <Compile Include="PublicClasses\AbstractFactory.cs" />
+    <Compile Include="PublicClasses\AbstractStudent.cs" />
+    <Compile Include="PublicClasses\AbstractTeacher.cs" />
+    <Compile Include="PublicClasses\UniversityFactory.cs" />
+    <Compile Include="PublicClasses\Proxy.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

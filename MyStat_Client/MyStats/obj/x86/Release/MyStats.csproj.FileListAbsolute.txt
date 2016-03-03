@@ -1,0 +1,13 @@
+C:\Users\Администратор\Desktop\MyStats\MyStats\bin\Release\MyStats.exe
+C:\Users\Администратор\Desktop\MyStats\MyStats\bin\Release\MyStats.pdb
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.Help.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.Homework.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.Library.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.Login.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.MainForm.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.News.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.Present.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.Properties.Resources.resources
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.exe
+C:\Users\Администратор\Desktop\MyStats\MyStats\obj\x86\Release\MyStats.pdb
