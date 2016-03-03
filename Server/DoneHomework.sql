@@ -7,7 +7,7 @@ CREATE TABLE tbl_DoneHomework
 	IdUser	   INT FOREIGN KEY REFERENCES tbl_User(IdUser) NOT NULL,
 	IdHomework INT FOREIGN KEY REFERENCES tbl_Homework(IdHomework) NOT NULL,
 	Mark	   INT,
-	DateAdded  Date not null,
+	DateAdded  Datetime not null,
     zipFile    NVARCHAR(max) not null
 )
 GO

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyStatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_AdminDaybook">
+    <Key>
+      <PropertyRef Name="IdAdminDaybook" />
+    </Key>
+    <Property Name="IdAdminDaybook" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdGroup" Type="Int32" />
+    <Property Name="IdTeacher" Type="Int32" />
+    <Property Name="LessonsDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_Group" Relationship="Self.FK__tbl_Admin__IdGro__2B0A656D" FromRole="tbl_AdminDaybook" ToRole="tbl_Group" />
+    <NavigationProperty Name="tbl_User" Relationship="Self.FK__tbl_Admin__IdTea__2BFE89A6" FromRole="tbl_AdminDaybook" ToRole="tbl_User" />
+  </EntityType>
+  <EntityType Name="tbl_Administrator">
+    <Key>
+      <PropertyRef Name="IdAdministrator" />
+    </Key>
+    <Property Name="IdAdministrator" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PassHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_News" Relationship="Self.FK__tbl_News__IdAdmi__19DFD96B" FromRole="tbl_Administrator" ToRole="tbl_News" />
+  </EntityType>
+  <EntityType Name="tbl_ConGroup">
+    <Key>
+      <PropertyRef Name="IdConGroup" />
+    </Key>
+    <Property Name="IdConGroup" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdGroup" Type="Int32" />
+    <Property Name="IdUser" Type="Int32" />
+    <NavigationProperty Name="tbl_Group" Relationship="Self.FK__tbl_ConGr__IdGro__1332DBDC" FromRole="tbl_ConGroup" ToRole="tbl_Group" />
+    <NavigationProperty Name="tbl_User" Relationship="Self.FK__tbl_ConGr__IdUse__14270015" FromRole="tbl_ConGroup" ToRole="tbl_User" />
+  </EntityType>
+  <EntityType Name="tbl_Daybook">
+    <Key>
+      <PropertyRef Name="IdDaybook" />
+    </Key>
+    <Property Name="IdDaybook" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdGroup" Type="Int32" Nullable="false" />
+    <Property Name="LessonsDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IdUser" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TimeLate" Type="DateTime" Precision="3" />
+    <Property Name="ClassworkMark" Type="Int32" />
+    <NavigationProperty Name="tbl_Group" Relationship="Self.FK__tbl_Daybo__IdGro__2739D489" FromRole="tbl_Daybook" ToRole="tbl_Group" />
+    <NavigationProperty Name="tbl_User" Relationship="Self.FK__tbl_Daybo__IdUse__282DF8C2" FromRole="tbl_Daybook" ToRole="tbl_User" />
+  </EntityType>
+  <EntityType Name="tbl_DoneHomework">
+    <Key>
+      <PropertyRef Name="IdDoneHomework" />
+    </Key>
+    <Property Name="IdDoneHomework" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUser" Type="Int32" Nullable="false" />
+    <Property Name="IdHomework" Type="Int32" Nullable="false" />
+    <Property Name="Mark" Type="Int32" />
+    <Property Name="DateAdded" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="zipFile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_Homework" Relationship="Self.FK__tbl_DoneH__IdHom__245D67DE" FromRole="tbl_DoneHomework" ToRole="tbl_Homework" />
+    <NavigationProperty Name="tbl_User" Relationship="Self.FK__tbl_DoneH__IdUse__236943A5" FromRole="tbl_DoneHomework" ToRole="tbl_User" />
+  </EntityType>
+  <EntityType Name="tbl_Feedback">
+    <Key>
+      <PropertyRef Name="IdFeedback" />
+    </Key>
+    <Property Name="IdFeedback" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUser" Type="Int32" />
+    <Property Name="DateAdded" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Theme" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Text" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_User" Relationship="Self.FK__tbl_Feedb__IdUse__208CD6FA" FromRole="tbl_Feedback" ToRole="tbl_User" />
+  </EntityType>
+  <EntityType Name="tbl_Group">
+    <Key>
+      <PropertyRef Name="IdGroup" />
+    </Key>
+    <Property Name="IdGroup" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CurrentSubject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_AdminDaybook" Relationship="Self.FK__tbl_Admin__IdGro__2B0A656D" FromRole="tbl_Group" ToRole="tbl_AdminDaybook" />
+    <NavigationProperty Name="tbl_ConGroup" Relationship="Self.FK__tbl_ConGr__IdGro__1332DBDC" FromRole="tbl_Group" ToRole="tbl_ConGroup" />
+    <NavigationProperty Name="tbl_Daybook" Relationship="Self.FK__tbl_Daybo__IdGro__2739D489" FromRole="tbl_Group" ToRole="tbl_Daybook" />
+    <NavigationProperty Name="tbl_Homework" Relationship="Self.FK__tbl_Homew__IdGro__1DB06A4F" FromRole="tbl_Group" ToRole="tbl_Homework" />
+    <NavigationProperty Name="tbl_TrainingMaterial" Relationship="Self.FK__tbl_Train__IdGro__17036CC0" FromRole="tbl_Group" ToRole="tbl_TrainingMaterial" />
+  </EntityType>
+  <EntityType Name="tbl_Homework">
+    <Key>
+      <PropertyRef Name="IdHomework" />
+    </Key>
+    <Property Name="IdHomework" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUser" Type="Int32" Nullable="false" />
+    <Property Name="IdGroup" Type="Int32" Nullable="false" />
+    <Property Name="DateAdded" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Theme" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_DoneHomework" Relationship="Self.FK__tbl_DoneH__IdHom__245D67DE" FromRole="tbl_Homework" ToRole="tbl_DoneHomework" />
+    <NavigationProperty Name="tbl_Group" Relationship="Self.FK__tbl_Homew__IdGro__1DB06A4F" FromRole="tbl_Homework" ToRole="tbl_Group" />
+    <NavigationProperty Name="tbl_User" Relationship="Self.FK__tbl_Homew__IdUse__1CBC4616" FromRole="tbl_Homework" ToRole="tbl_User" />
+  </EntityType>
+  <EntityType Name="tbl_News">
+    <Key>
+      <PropertyRef Name="IdNews" />
+    </Key>
+    <Property Name="IdNews" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdAdministrator" Type="Int32" Nullable="false" />
+    <Property Name="DateAdded" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Theme" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Text" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_Administrator" Relationship="Self.FK__tbl_News__IdAdmi__19DFD96B" FromRole="tbl_News" ToRole="tbl_Administrator" />
+  </EntityType>
+  <EntityType Name="tbl_TrainingMaterial">
+    <Key>
+      <PropertyRef Name="IdTrainingMaterial" />
+    </Key>
+    <Property Name="IdTrainingMaterial" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdGroup" Type="Int32" />
+    <Property Name="MatherialType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateAdded" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="zipFile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_Group" Relationship="Self.FK__tbl_Train__IdGro__17036CC0" FromRole="tbl_TrainingMaterial" ToRole="tbl_Group" />
+  </EntityType>
+  <EntityType Name="tbl_User">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MidleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BirthDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="PhoneNum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PassHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tbl_AdminDaybook" Relationship="Self.FK__tbl_Admin__IdTea__2BFE89A6" FromRole="tbl_User" ToRole="tbl_AdminDaybook" />
+    <NavigationProperty Name="tbl_ConGroup" Relationship="Self.FK__tbl_ConGr__IdUse__14270015" FromRole="tbl_User" ToRole="tbl_ConGroup" />
+    <NavigationProperty Name="tbl_Daybook" Relationship="Self.FK__tbl_Daybo__IdUse__282DF8C2" FromRole="tbl_User" ToRole="tbl_Daybook" />
+    <NavigationProperty Name="tbl_DoneHomework" Relationship="Self.FK__tbl_DoneH__IdUse__236943A5" FromRole="tbl_User" ToRole="tbl_DoneHomework" />
+    <NavigationProperty Name="tbl_Feedback" Relationship="Self.FK__tbl_Feedb__IdUse__208CD6FA" FromRole="tbl_User" ToRole="tbl_Feedback" />
+    <NavigationProperty Name="tbl_Homework" Relationship="Self.FK__tbl_Homew__IdUse__1CBC4616" FromRole="tbl_User" ToRole="tbl_Homework" />
+  </EntityType>
+  <Association Name="FK__tbl_Admin__IdGro__2B0A656D">
+    <End Role="tbl_Group" Type="Self.tbl_Group" Multiplicity="0..1" />
+    <End Role="tbl_AdminDaybook" Type="Self.tbl_AdminDaybook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Group">
+        <PropertyRef Name="IdGroup" />
+      </Principal>
+      <Dependent Role="tbl_AdminDaybook">
+        <PropertyRef Name="IdGroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Admin__IdTea__2BFE89A6">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="0..1" />
+    <End Role="tbl_AdminDaybook" Type="Self.tbl_AdminDaybook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="tbl_AdminDaybook">
+        <PropertyRef Name="IdTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_News__IdAdmi__19DFD96B">
+    <End Role="tbl_Administrator" Type="Self.tbl_Administrator" Multiplicity="1" />
+    <End Role="tbl_News" Type="Self.tbl_News" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Administrator">
+        <PropertyRef Name="IdAdministrator" />
+      </Principal>
+      <Dependent Role="tbl_News">
+        <PropertyRef Name="IdAdministrator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_ConGr__IdGro__1332DBDC">
+    <End Role="tbl_Group" Type="Self.tbl_Group" Multiplicity="0..1" />
+    <End Role="tbl_ConGroup" Type="Self.tbl_ConGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Group">
+        <PropertyRef Name="IdGroup" />
+      </Principal>
+      <Dependent Role="tbl_ConGroup">
+        <PropertyRef Name="IdGroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_ConGr__IdUse__14270015">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="0..1" />
+    <End Role="tbl_ConGroup" Type="Self.tbl_ConGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="tbl_ConGroup">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Daybo__IdGro__2739D489">
+    <End Role="tbl_Group" Type="Self.tbl_Group" Multiplicity="1" />
+    <End Role="tbl_Daybook" Type="Self.tbl_Daybook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Group">
+        <PropertyRef Name="IdGroup" />
+      </Principal>
+      <Dependent Role="tbl_Daybook">
+        <PropertyRef Name="IdGroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Daybo__IdUse__282DF8C2">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="1" />
+    <End Role="tbl_Daybook" Type="Self.tbl_Daybook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="tbl_Daybook">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_DoneH__IdHom__245D67DE">
+    <End Role="tbl_Homework" Type="Self.tbl_Homework" Multiplicity="1" />
+    <End Role="tbl_DoneHomework" Type="Self.tbl_DoneHomework" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Homework">
+        <PropertyRef Name="IdHomework" />
+      </Principal>
+      <Dependent Role="tbl_DoneHomework">
+        <PropertyRef Name="IdHomework" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_DoneH__IdUse__236943A5">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="1" />
+    <End Role="tbl_DoneHomework" Type="Self.tbl_DoneHomework" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="tbl_DoneHomework">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Feedb__IdUse__208CD6FA">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="0..1" />
+    <End Role="tbl_Feedback" Type="Self.tbl_Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="tbl_Feedback">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Homew__IdGro__1DB06A4F">
+    <End Role="tbl_Group" Type="Self.tbl_Group" Multiplicity="1" />
+    <End Role="tbl_Homework" Type="Self.tbl_Homework" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Group">
+        <PropertyRef Name="IdGroup" />
+      </Principal>
+      <Dependent Role="tbl_Homework">
+        <PropertyRef Name="IdGroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Train__IdGro__17036CC0">
+    <End Role="tbl_Group" Type="Self.tbl_Group" Multiplicity="0..1" />
+    <End Role="tbl_TrainingMaterial" Type="Self.tbl_TrainingMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Group">
+        <PropertyRef Name="IdGroup" />
+      </Principal>
+      <Dependent Role="tbl_TrainingMaterial">
+        <PropertyRef Name="IdGroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_Homew__IdUse__1CBC4616">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="1" />
+    <End Role="tbl_Homework" Type="Self.tbl_Homework" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="tbl_Homework">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MyStatEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_AdminDaybook" EntityType="Self.tbl_AdminDaybook" />
+    <EntitySet Name="tbl_Administrator" EntityType="Self.tbl_Administrator" />
+    <EntitySet Name="tbl_ConGroup" EntityType="Self.tbl_ConGroup" />
+    <EntitySet Name="tbl_Daybook" EntityType="Self.tbl_Daybook" />
+    <EntitySet Name="tbl_DoneHomework" EntityType="Self.tbl_DoneHomework" />
+    <EntitySet Name="tbl_Feedback" EntityType="Self.tbl_Feedback" />
+    <EntitySet Name="tbl_Group" EntityType="Self.tbl_Group" />
+    <EntitySet Name="tbl_Homework" EntityType="Self.tbl_Homework" />
+    <EntitySet Name="tbl_News" EntityType="Self.tbl_News" />
+    <EntitySet Name="tbl_TrainingMaterial" EntityType="Self.tbl_TrainingMaterial" />
+    <EntitySet Name="tbl_User" EntityType="Self.tbl_User" />
+    <AssociationSet Name="FK__tbl_Admin__IdGro__2B0A656D" Association="Self.FK__tbl_Admin__IdGro__2B0A656D">
+      <End Role="tbl_Group" EntitySet="tbl_Group" />
+      <End Role="tbl_AdminDaybook" EntitySet="tbl_AdminDaybook" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Admin__IdTea__2BFE89A6" Association="Self.FK__tbl_Admin__IdTea__2BFE89A6">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_AdminDaybook" EntitySet="tbl_AdminDaybook" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_News__IdAdmi__19DFD96B" Association="Self.FK__tbl_News__IdAdmi__19DFD96B">
+      <End Role="tbl_Administrator" EntitySet="tbl_Administrator" />
+      <End Role="tbl_News" EntitySet="tbl_News" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_ConGr__IdGro__1332DBDC" Association="Self.FK__tbl_ConGr__IdGro__1332DBDC">
+      <End Role="tbl_Group" EntitySet="tbl_Group" />
+      <End Role="tbl_ConGroup" EntitySet="tbl_ConGroup" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_ConGr__IdUse__14270015" Association="Self.FK__tbl_ConGr__IdUse__14270015">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_ConGroup" EntitySet="tbl_ConGroup" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Daybo__IdGro__2739D489" Association="Self.FK__tbl_Daybo__IdGro__2739D489">
+      <End Role="tbl_Group" EntitySet="tbl_Group" />
+      <End Role="tbl_Daybook" EntitySet="tbl_Daybook" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Daybo__IdUse__282DF8C2" Association="Self.FK__tbl_Daybo__IdUse__282DF8C2">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_Daybook" EntitySet="tbl_Daybook" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_DoneH__IdHom__245D67DE" Association="Self.FK__tbl_DoneH__IdHom__245D67DE">
+      <End Role="tbl_Homework" EntitySet="tbl_Homework" />
+      <End Role="tbl_DoneHomework" EntitySet="tbl_DoneHomework" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_DoneH__IdUse__236943A5" Association="Self.FK__tbl_DoneH__IdUse__236943A5">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_DoneHomework" EntitySet="tbl_DoneHomework" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Feedb__IdUse__208CD6FA" Association="Self.FK__tbl_Feedb__IdUse__208CD6FA">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_Feedback" EntitySet="tbl_Feedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Homew__IdGro__1DB06A4F" Association="Self.FK__tbl_Homew__IdGro__1DB06A4F">
+      <End Role="tbl_Group" EntitySet="tbl_Group" />
+      <End Role="tbl_Homework" EntitySet="tbl_Homework" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Train__IdGro__17036CC0" Association="Self.FK__tbl_Train__IdGro__17036CC0">
+      <End Role="tbl_Group" EntitySet="tbl_Group" />
+      <End Role="tbl_TrainingMaterial" EntitySet="tbl_TrainingMaterial" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_Homew__IdUse__1CBC4616" Association="Self.FK__tbl_Homew__IdUse__1CBC4616">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_Homework" EntitySet="tbl_Homework" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

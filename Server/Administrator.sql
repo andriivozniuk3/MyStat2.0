@@ -7,8 +7,8 @@ CREATE TABLE tbl_Administrator
 	FirstName	    NVARCHAR(50) NOT NULL,
 	LastName        NVARCHAR(50) NOT NULL,
 	PhoneNumber     NVARCHAR(50) NOT NULL,
-	EMail           NVARCHAR(50) NOT NULL,
-	Login           NVARCHAR(50) NOT NULL,
+	EMail           NVARCHAR(50) NOT NULL unique,
+	Login           NVARCHAR(50) NOT NULL unique,
 	PassHash        NVARCHAR(max) NOT NULL
 )
 

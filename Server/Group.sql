@@ -14,8 +14,7 @@ drop table tbl_Group
 CREATE TABLE tbl_Group
 (
 	IdGroup				INT				IDENTITY(1,1) PRIMARY KEY,
-	IdTrainingMaterial  INT				FOREIGN KEY REFERENCES tbl_TrainingMaterial(IdTrainingMaterial),
-	Name				NVARCHAR(50)	NOT NULL,
+	Name				NVARCHAR(50)	NOT NULL unique,
 	CurrentSubject		NVARCHAR(50)	NOT NULL
 )
 

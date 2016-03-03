@@ -9,8 +9,8 @@ CREATE TABLE tbl_User
 	MidleName NVARCHAR(50) NOT NULL,
 	BirthDate Date NOT NULL,
 	PhoneNum  NVARCHAR(50) NOT NULL,
-	EMail	  NVARCHAR(50) NOT NULL,
-	[Login]    NVARCHAR(50) NOT NULL,
+	EMail	  NVARCHAR(50) NOT NULL unique,
+	[Login]    NVARCHAR(50) NOT NULL unique,
 	PassHash  NVARCHAR(max) not null,
 	[Role]      NVARCHAR(50) NOT NULL
 )

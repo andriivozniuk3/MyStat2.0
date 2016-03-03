@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MyStatModelStoreContainer" CdmEntityContainer="MyStatEntities">
+    <EntitySetMapping Name="tbl_AdminDaybook">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_AdminDaybook">
+        <MappingFragment StoreEntitySet="tbl_AdminDaybook">
+          <ScalarProperty Name="IdAdminDaybook" ColumnName="IdAdminDaybook" />
+          <ScalarProperty Name="IdGroup" ColumnName="IdGroup" />
+          <ScalarProperty Name="IdTeacher" ColumnName="IdTeacher" />
+          <ScalarProperty Name="LessonsDate" ColumnName="LessonsDate" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Administrator">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_Administrator">
+        <MappingFragment StoreEntitySet="tbl_Administrator">
+          <ScalarProperty Name="IdAdministrator" ColumnName="IdAdministrator" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="PassHash" ColumnName="PassHash" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ConGroup">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_ConGroup">
+        <MappingFragment StoreEntitySet="tbl_ConGroup">
+          <ScalarProperty Name="IdConGroup" ColumnName="IdConGroup" />
+          <ScalarProperty Name="IdGroup" ColumnName="IdGroup" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Daybook">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_Daybook">
+        <MappingFragment StoreEntitySet="tbl_Daybook">
+          <ScalarProperty Name="IdDaybook" ColumnName="IdDaybook" />
+          <ScalarProperty Name="IdGroup" ColumnName="IdGroup" />
+          <ScalarProperty Name="LessonsDate" ColumnName="LessonsDate" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TimeLate" ColumnName="TimeLate" />
+          <ScalarProperty Name="ClassworkMark" ColumnName="ClassworkMark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DoneHomework">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_DoneHomework">
+        <MappingFragment StoreEntitySet="tbl_DoneHomework">
+          <ScalarProperty Name="IdDoneHomework" ColumnName="IdDoneHomework" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="IdHomework" ColumnName="IdHomework" />
+          <ScalarProperty Name="Mark" ColumnName="Mark" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="zipFile" ColumnName="zipFile" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Feedback">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_Feedback">
+        <MappingFragment StoreEntitySet="tbl_Feedback">
+          <ScalarProperty Name="IdFeedback" ColumnName="IdFeedback" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="Theme" ColumnName="Theme" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Group">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_Group">
+        <MappingFragment StoreEntitySet="tbl_Group">
+          <ScalarProperty Name="IdGroup" ColumnName="IdGroup" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CurrentSubject" ColumnName="CurrentSubject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Homework">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_Homework">
+        <MappingFragment StoreEntitySet="tbl_Homework">
+          <ScalarProperty Name="IdHomework" ColumnName="IdHomework" />
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="IdGroup" ColumnName="IdGroup" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Theme" ColumnName="Theme" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_News">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_News">
+        <MappingFragment StoreEntitySet="tbl_News">
+          <ScalarProperty Name="IdNews" ColumnName="IdNews" />
+          <ScalarProperty Name="IdAdministrator" ColumnName="IdAdministrator" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="Theme" ColumnName="Theme" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_TrainingMaterial">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_TrainingMaterial">
+        <MappingFragment StoreEntitySet="tbl_TrainingMaterial">
+          <ScalarProperty Name="IdTrainingMaterial" ColumnName="IdTrainingMaterial" />
+          <ScalarProperty Name="IdGroup" ColumnName="IdGroup" />
+          <ScalarProperty Name="MatherialType" ColumnName="MatherialType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="zipFile" ColumnName="zipFile" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_User">
+      <EntityTypeMapping TypeName="MyStatModel.tbl_User">
+        <MappingFragment StoreEntitySet="tbl_User">
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MidleName" ColumnName="MidleName" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="PhoneNum" ColumnName="PhoneNum" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="PassHash" ColumnName="PassHash" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
