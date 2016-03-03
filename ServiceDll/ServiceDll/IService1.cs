@@ -52,7 +52,7 @@ namespace ServiceDll
         byte[] DownloadHomework(string filename, string login, int idHomework);
 
         [OperationContract]
-        string GetUser(int idUser);
+        string GetUser(string login);
 
         [OperationContract]
         byte[] DownloadTrainingMaterial(int idTrainingMatherial);

@@ -1,0 +1,26 @@
+﻿Installing assembly 'C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing service MyStat2.0...
+Service MyStat2.0 has been successfully installed.
+Creating EventLog source MyStat2.0 in log Application...
+Committing assembly 'C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing assembly 'F:\Навчання\CommandWork\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = F:\Навчання\CommandWork\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = F:\Навчання\CommandWork\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing service MyStat2.0...
+Service MyStat2.0 has been successfully installed.
+Creating EventLog source MyStat2.0 in log Application...
+Committing assembly 'F:\Навчання\CommandWork\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = F:\Навчання\CommandWork\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = F:\Навчання\CommandWork\WindowsService\WindowsService\bin\Debug\WindowsService.exe

@@ -1,0 +1,15 @@
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.exe.config
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\WindowsService.pdb
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\ServiceDll.dll
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\EntityFramework.dll
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\ServiceDll.pdb
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\bin\Debug\EntityFramework.xml
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\obj\Debug\WindowsService.csprojResolveAssemblyReference.cache
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\obj\Debug\WindowsService.ProjectInstaller.resources
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\obj\Debug\WindowsService.csproj.GenerateResource.Cache
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\obj\Debug\WindowsService.exe
+C:\Users\vozniuk\Downloads\WindowsService\WindowsService\obj\Debug\WindowsService.pdb
+F:\Навчання\CommandWork\WindowsService\WindowsService\bin\Debug\WindowsService.exe.config
+F:\Навчання\CommandWork\WindowsService\WindowsService\obj\Debug\WindowsService.exe
+F:\Навчання\CommandWork\WindowsService\WindowsService\obj\Debug\WindowsService.pdb

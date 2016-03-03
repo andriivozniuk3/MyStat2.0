@@ -1,1 +1,11 @@
 F:\Навчання\CommandWork\ServiceDll\ServiceDll\obj\Debug\ServiceDll.csprojResolveAssemblyReference.cache
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\bin\Debug\ServiceDll.dll.config
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\bin\Debug\ServiceDll.dll
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\bin\Debug\ServiceDll.pdb
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\bin\Debug\EntityFramework.dll
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\bin\Debug\EntityFramework.xml
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\obj\Debug\ServiceDll.dll
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\obj\Debug\ServiceDll.pdb
+C:\Users\vozniuk\Downloads\ServiceDll\ServiceDll\obj\Debug\ServiceDll.csprojResolveAssemblyReference.cache
